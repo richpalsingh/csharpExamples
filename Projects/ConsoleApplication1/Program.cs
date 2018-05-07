@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharpExamples.Examples.Amazon;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Configuration;
@@ -13,7 +14,10 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            StringAndArrays stringAndArrays = new StringAndArrays();
+            stringAndArrays.ReverseVowelsString();
 
+            Console.ReadLine();
         }
     }
 }
