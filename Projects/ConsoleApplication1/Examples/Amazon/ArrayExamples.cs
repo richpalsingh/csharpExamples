@@ -294,6 +294,7 @@ namespace CSharpExamples.Examples.Amazon
         /// <returns></returns>
         public int SubarraySumEqualsK()
         {
+           
             /**
                 Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.
 
@@ -359,8 +360,9 @@ namespace CSharpExamples.Examples.Amazon
         /// Same as above without space consideration. I like this short version
         /// </summary>
         /// <returns></returns>
-        public int SubarraySumEqualsKWithoutSpace()
+        public int  SubarraySumEqualsKWithoutSpace()
         {
+            https://www.youtube.com/watch?v=kekmCQXYwQ0
             /*
             Complexity Analysis
             Time complexity : O(n^2). We need to consider every subarray possible.
@@ -399,5 +401,7 @@ namespace CSharpExamples.Examples.Amazon
             Console.WriteLine($"\ncount={count}");
             return count;
         }
+
+    
     }
 }

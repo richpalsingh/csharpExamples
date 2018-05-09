@@ -15,7 +15,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             StringAndArrays stringAndArrays = new StringAndArrays();
-            stringAndArrays.ReverseVowelsString();
+            stringAndArrays.ReverseWordsInAString_SecondTry();
 
             Console.ReadLine();
         }
